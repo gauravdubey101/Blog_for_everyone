@@ -71,7 +71,7 @@
 articles */
 .home-articles{
 height: 445px;
-background-color: yellow;
+background-color: rgb(233, 208, 184);
 }
 .home-article{
 
@@ -82,7 +82,7 @@ background-color: yellow;
 
 .footer {
   height: 50px;
-  background-color: rgb(34, 18, 18);
+  background-color: var(--main-bg-color);
   display: flex;
   align-items: center;
   justify-content: center;
