@@ -9,11 +9,18 @@
   justify-content: space-between;
   align-items: center;
   font-family: var(--font1);
+  margin-top:22px ;
 }
 .nav-left {
-  font-size: 20px;
+  font-size: 28px;
   display: flex;
 }
+.nav-left span{
+  font-size: 35px;
+  padding-top: 10px ;
+}
+
+
 .nav-left ul {
   display: flex;
   align-items: center;
@@ -70,11 +77,22 @@
 /* 
 articles */
 .home-articles{
-height: 445px;
-background-color: rgb(233, 208, 184);
+/* height: 445px; */
+/* background-color: rgb(233, 208, 184); */
+padding-top: 13px;
+
 }
 .home-article{
-
+display: flex;
+padding: 30px
+}
+.home-article img{
+  width: 300px;
+  /* height: 200px; */
+}
+.home-article-content{
+  align-self: center;
+  padding: 26px;
 }
 
 
