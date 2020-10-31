@@ -4,14 +4,55 @@
 }
 .navigation{
 height: 74px;
-background-color: red;
+/* background-color: red; */
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-family: var(--font1);
+
+}
+.nav-left{
+    font-size: 20px;
+    display: flex;
+
+}
+.nav-left ul{
+    display: flex;
+    align-items: center; 
+    margin: 0 77px;
+    font-size: 18px;
+}
+.nav-left ul li{
+    list-style: none;
+    margin: 0px 14px ;
+    font-family: var(--font2) ;
+  
+
+}
+.nav-left ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav-right{
 
 }
 .content{
-height: 95px;
-background-color: aquamarine;
+height: 350px;
+ background-color: aquamarine; 
+ display: flex;
 }
+.content-left{
+font-family: var(--font1);
+width: 50%;
+}
+.content-right{
+    width: 50%;
+}
+.content-right img{
+    height: 255px;
+}
+
 .footer{
 height: 50px;
-background-color: blue;
+/* background-color: blue; */
 }
