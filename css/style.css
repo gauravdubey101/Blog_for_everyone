@@ -66,6 +66,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  z-index: 1;
 }
 .content-right {
   display: flex;
@@ -85,7 +86,21 @@ articles */
   background-color: rgb(236, 218, 200,0.5);
   padding: 18px;
   margin-top: 23px;
+  position: relative;
 
+}
+.year-box{
+  position: absolute;
+  /* width: 35px;
+  height: 455px; */
+  
+  right: 5px;
+  top: 100px;
+  width: 234px;
+  height: 255px;
+}
+.year-box div{
+  margin: 12px 0px;
 }
 .home-article {
   display: flex;
@@ -102,7 +117,7 @@ articles */
 
 .home-article-content a{
   text-decoration: none;
-  color: var(--main-bg-color);
+  color: black;
 
 }
 .footer {

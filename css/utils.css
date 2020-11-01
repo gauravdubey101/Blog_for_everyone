@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 :root {
-  --main-bg-color: purple;
+  --main-bg-color: rgb(233, 146, 233);
   --font1: "Baloo Bhai 2", cursive;
   --font2: "Roboto", sans-serif;
 }
@@ -28,6 +28,9 @@
     margin-bottom: 32px;
     margin-top: 32px;
 }
+.mx-1{
+  margin-left: 23px;
+}
 
 .btn {
   padding: 0 18px;
@@ -50,4 +53,15 @@
   border: 2px solid black;
   margin: 0 13px;
   font-family: var(--font1);
+}
+
+.form-box input , textarea{
+  width: 34vw;
+  padding: 0px 6px;
+  margin: 7px 0px;
+  font-size: 13px;
+  font-family: var(--font1);
+  border-radius: 5px;
+  border: 2px solid  var(--main-bg-color)
+
 }
