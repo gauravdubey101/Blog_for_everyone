@@ -1,32 +1,21 @@
-*{
-    margin: 0;
-    padding: 0;
+
+
+.contact-content{  
+  height: 100vh;
+  margin-top: 32px;
+  padding: 9px;
+  position: relative; 
+  overflow: hidden;
 }
 
-.contact-content{
-    height: 395px;
-    /* background-color: rgb(135, 135, 235); */
-   
-    margin-top: 32px;
-    padding: 9px;
-    position: relative;
-    height: 80vh; 
-}
-
-.contact-content::after{
+.contact-content::after {
   content: "";
-  background-image: url("../img/1.png");
+  background-image: url("../img/11.svg");
   position: absolute;
-  top: 0;
+  top:0;
   width: 100%;
-  /* height: inherit; */
-  opacity: 0.2;
+  height: inherit;
+  opacity: 0.15;
   border-radius: 12px;
   z-index: -1;
-  
-  
-}
-.contact-form{
-  
-
 }
