@@ -9,17 +9,16 @@
   justify-content: space-between;
   align-items: center;
   font-family: var(--font1);
-  margin-top:22px ;
+  margin-top: 22px;
 }
 .nav-left {
   font-size: 28px;
   display: flex;
 }
-.nav-left span{
+.nav-left span {
   font-size: 35px;
-  padding-top: 10px ;
+  padding-top: 10px;
 }
-
 
 .nav-left ul {
   display: flex;
@@ -32,72 +31,80 @@
   margin: 0px 14px;
   font-family: var(--font2);
   transition: all 0.3s ease-in-out;
-
-  
 }
 .nav-left ul li a {
   text-decoration: none;
   color: black;
- 
 }
-.nav-left ul li a:hover{
-    color: var(--main-bg-color);
-    font-weight: bolder;
-    
+.nav-left ul li a:hover {
+  color: var(--main-bg-color);
+  font-weight: bolder;
 }
 .nav-right {
+ 
 }
 .content {
   height: 395px;
   /* background-color: rgb(135, 135, 235); */
   display: flex;
-  margin-top:32px;
+  margin-top: 32px;
   padding: 9px;
+  position: relative;
+}
+.content::after {
+  content: "";
+  background-image: url("../img/2.jpg");
+  position: absolute;
+  width: 100%;
+  height: inherit;
+  opacity: 0.2;
+  border-radius: 12px;
 }
 .content-left {
   font-family: var(--font1);
-  
+  padding: 50px;
   display: flex;
-
   justify-content: center;
   flex-direction: column;
 }
 .content-right {
-  
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .content-right img {
-  height: 255px;
+  height: 220px;
   border: 2px solid black;
   border-radius: 200px;
 }
 
 /* 
 articles */
-.home-articles{
-/* height: 445px; */
-/* background-color: rgb(233, 208, 184); */
-padding-top: 13px;
+.home-articles {
+  /* height: 445px; */
+  background-color: rgb(236, 218, 200,0.5);
+  padding: 18px;
+  margin-top: 23px;
 
 }
-.home-article{
-display: flex;
-padding: 30px
+.home-article {
+  display: flex;
+  margin: 25px;
 }
-.home-article img{
+.home-article img {
   width: 300px;
   /* height: 200px; */
 }
-.home-article-content{
+.home-article-content {
   align-self: center;
   padding: 26px;
 }
 
+.home-article-content a{
+  text-decoration: none;
+  color: var(--main-bg-color);
 
-
-
+}
 .footer {
   height: 50px;
   background-color: var(--main-bg-color);
@@ -106,8 +113,7 @@ padding: 30px
   justify-content: center;
   color: white;
   flex-direction: column;
-  
 }
-.footer a{
-    color: white;
+.footer a {
+  color: white;
 }
